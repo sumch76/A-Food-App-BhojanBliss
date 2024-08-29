@@ -77,7 +77,7 @@ function Contact() {
         </div>
         <div className="credits">
           Connect with me
-          <a className="credits-link" href="" target="_blank">
+          <a className="credits-link" href="https://a-food-app-bhojan-bliss.vercel.app" target="_blank">
             <svg className="dribbble" viewBox="0 0 200 200">
               <g stroke="#ffffff" fill="none">
                 <circle cx="100" cy="100" r="90" strokeWidth="20"></circle>
