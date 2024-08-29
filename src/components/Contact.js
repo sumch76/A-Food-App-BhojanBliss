@@ -10,7 +10,7 @@ function Contact() {
 
     emailjs
       .sendForm('service_2tocwyr', 'template_wcn3usn', form.current, {
-        publicKey: 's2RpikUEUAW65oMEE',
+        publicKey: 'qczB3prsyLPk6gnMR',
       })
       .then(
         () => {
@@ -64,9 +64,6 @@ function Contact() {
                 <div className="app-form-group">
                   <input  type='email' name="user_email" className="app-form-control" placeholder="EMAIL" required />
                 </div>
-                {/* <div className="app-form-group">
-                  <input className="app-form-control" placeholder="CONTACT NO" />
-                </div> */}
                 <div className="app-form-group message">
                   <input  type='text' name="message" className="app-form-control" placeholder="MESSAGE" required/>
                 </div>
