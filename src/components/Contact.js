@@ -9,7 +9,7 @@ function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_2tocwyr', 'template_wcn3usn', form.current, {
+      .sendForm('service_r0lee9p', 'template_wcn3usn', form.current, {
         publicKey: 'qczB3prsyLPk6gnMR',
       })
       .then(
