@@ -14,7 +14,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "../redux/cartSlice";
 
 import { toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const RestaurantMenu = () => {
