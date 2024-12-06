@@ -1,6 +1,6 @@
 import RestaurantCard, { VegRestaurant } from "./RestaurantCard";
 
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import userContext from "../context/userContext";
 import Simmer from "./Simmer";
 import Search from "./Search";
@@ -10,8 +10,8 @@ import Offline from "./Offline";
 import NoSearch from "./NoSearch";
 
 export let Body = () => {
-
   const VegRestaurantCard = VegRestaurant(RestaurantCard);
+  
 
   const onlineStatus = UseOnlineStatus();
   if (onlineStatus === false) {
@@ -26,12 +26,12 @@ export let Body = () => {
   return (
     <div className="body">
       <div className="search">
-        <Search />
+        <Search/>
       </div>
       <div className="res-container">
         {
           // Render NoSearch if no restaurants match the filter
-          filteredRestaurant.length === 0 ? (
+          filteredRestaurant.length === 0  ? (
             <NoSearch />
           ) : (
             filteredRestaurant.map((restaurant) => (

@@ -21,7 +21,6 @@ let Search=()=>{
         }
             setFilteredRestaurant(searchRestaurant);
         }}>Search</button>
-        
         </div>
     )
 }

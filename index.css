@@ -176,6 +176,7 @@ html,body{
     margin: 120px auto;
 
 }
+
 /* Search ⭐⭐⭐  */
 .search-container{
     top: 100px;
@@ -477,8 +478,6 @@ font-weight: 550;
     width: 20%;
     margin-top: 4px;
   }
-
-
 
 
 
@@ -1483,3 +1482,43 @@ h5 {
     }
   
   }
+  .no-search {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .no-search-gif {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .no-search h2 {
+    font-size: 24px;
+    color: #ff6347;
+  }
+  
+  .no-search p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .retry-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .retry-button:hover {
+    background-color: #e5533d;
+  }
+  
