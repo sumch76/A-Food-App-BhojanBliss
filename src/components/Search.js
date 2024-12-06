@@ -8,6 +8,7 @@ let Search=()=>{
         toast.error("No results found 😪",{
             position:"bottom-right"
             });
+       
     }
     return(
         <div className="search-container">

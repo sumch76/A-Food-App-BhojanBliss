@@ -7,7 +7,7 @@ const NoSearch = () => {
   
   return (
     <div className='no-search'>
-      <p>No search results found {searchText} 😪</p>
+      <p>No search results found  for  {searchText} 😪</p>
     </div>
   );
 }
